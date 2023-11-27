@@ -1,0 +1,102 @@
+mkdir PRAKTIKA
+cd PRAKTIKA/
+mkdir F1
+cd F1/
+mkdir F2
+cd F2/
+mkdir F3
+cd F3/
+mkdir F4
+cd ~/Projects/Ikt/PRAKTIKA/
+mkdir F5
+cd F5
+mkdir F6
+mkdir F7
+cd ..
+mkdir F8
+cd F8
+mkdir F9
+mkdir F10
+cd F10
+mkdir F11
+cd ../..
+mkdir F13
+cd F13
+mkdir F12
+cd F12
+mkdir F14
+cd ~/Projects/Ikt/PRAKTIKA/
+mkdir F15
+cd F15
+mkdir F16
+mkdir F17
+cd F17
+mkdir F18
+cd F18
+mkdir F20
+mkdir F19
+cd PRAKTIKA/
+mv F1 A1
+mv F13 A13
+mv F15 A13
+mv F5 A5
+mv F8 A8
+cd A1
+mv F2/ A2
+cd A2/
+mv F3/ A3
+cd A3/
+mv F4/ A4
+cd ../../..
+cd A5
+mv F6 A6
+mv F7 A7
+cd ..
+cd F8
+cd: F8: No such file or directory
+cd A8
+mv F9 A9
+mv F10 A10
+mv F11 A11
+cd ..
+cd F13
+cd: F13: No such file or directory
+cd A13
+mv F12 A12
+cd 
+F15/ 
+cd ..
+cd A13
+mv F15 ../F15
+cd A12
+mv F14/ A14
+cd ../..
+mv F15/ A15
+cd A15
+mv F16 A16
+mv F17 A17
+cd A17
+mv F18 A18
+cd A18
+mv F20 A20
+mv F19 A19
+cd ../..
+cd ..
+cd A1
+cd A2/A3/
+mv A4/ ../../../../A4
+cd ../../../..
+mv A4 PRAKTIKA/A4
+cd PRAKTIKA/
+mv A5/A6 ./A6
+mv A5/A7 ./A7
+mv A8/A9 ./A9
+mv A8/A10/A11 ./A11
+mv A8/A10/A11 ./A11
+mv A13/A12/A14/ ./A14
+mv A15/A16 ./A16
+mv A15/A17/A18/A20 ./A20
+mv A15/A17/A18/A19/ ./A19
+cd ..
+rm -r PRAKTIKA/
+
