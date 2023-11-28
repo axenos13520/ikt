@@ -1,0 +1,33 @@
+mkdir PRAKTIKA
+cd PRAKTIKA/
+mkdir Months
+cd Months/
+echo "January" > January.txt
+echo "February" > February.txt
+echo "March" > March.txt
+echo "April" > April.txt
+echo "May" > May.txt
+echo "June" > June.txt
+echo "July" > July.txt
+echo "August" > August.txt
+echo "September" > September.txt
+echo "October" > October.txt
+echo "November" > November.txt
+echo "December" > December.txt
+cd ..
+mkdir Seasons
+cd Seasons/
+echo "Winter" > Winter.txt
+echo "Spring" > Spring.txt
+echo "Summer" > Summer.txt
+echo "Autumn" > Autumn.txt
+cd ..
+mkdir DaysOfWeek
+cd DaysOfWeek/
+echo "Monday" > Monday.txt
+echo "Tuesday" > Tuesday.txt
+echo "Wednesday" > Wednesday.txt
+echo "Thursday" > Thursday.txt
+echo "Friday" > Friday.txt
+echo "Saturday" > Saturday.txt
+echo "Sunday" > Sunday.txt
