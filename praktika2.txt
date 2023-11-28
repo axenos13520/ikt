@@ -31,3 +31,64 @@ echo "Thursday" > Thursday.txt
 echo "Friday" > Friday.txt
 echo "Saturday" > Saturday.txt
 echo "Sunday" > Sunday.txt
+
+Months/
+mv January.txt January-1987.txt
+mv February.txt February-1987.txt
+mv March.txt March-1987.txt
+mv April.txt April-1987.txt
+mv May.txt May-1987.txt
+mv June.txt June-1987.txt
+mv July.txt July-1987.txt
+mv August.txt August-1987.txt
+mv September.txt September-1987.txt
+mv October.txt October-1987.txt
+mv November.txt November-1987.txt
+mv December.txt December-1987.txt
+cd ..
+cd Seasons/
+mv Winter.txt Winter-1987.txt
+mv Spring.txt Spring-1987.txt
+mv Summer.txt Summer-1987.txt
+mv Autumn.txt Autumn-1987.txt
+cd ..
+cd DaysOfWeek/
+mv Monday.txt Monday-1987.txt
+mv Tuesday.txt Tuesday-1987.txt
+mv Wednesday.txt Wednesday-1987.txt
+mv Thursday.txt Thursday-1987.txt
+mv Friday.txt Friday-1987.txt
+mv Saturday.txt Saturday-1987.txt
+mv Sunday.txt Sunday-1987.txt
+
+cd Months/
+cp December-1987.txt January-1987.txt
+cp November-1987.txt December-1987.txt
+cp October-1987.txt November-1987.txt
+cp September-1987.txt October-1987.txt
+cp August-1987.txt September-1987.txt
+cp July-1987.txt August-1987.txt
+cp June-1987.txt July-1987.txt
+cp May-1987.txt June-1987.txt
+cp April-1987.txt May-1987.txt
+cp March-1987.txt April-1987.txt
+cp February-1987.txt March-1987.txt
+echo "January" > February-1987.txt
+
+cd Seasons/
+
+echo "December
+January
+February" > Winter-1987.txt
+
+echo "March
+April
+May" > Spring-1987.txt
+
+echo "June
+July
+August" > Summer-1987.txt
+
+echo "September
+October
+November" > Autumn-1987.txt
