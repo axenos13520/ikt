@@ -1,0 +1,41 @@
+cd PRAKTIKA/
+mkdir -p F1/F2/F3
+cd F1/F2/F3/
+echo "catec" > F3.txt
+mkdir F4
+cd F4
+echo "15 november" > F4.txt
+cd ../../../..
+mkdir -p F5/F6
+cd F5
+mkdir F7
+cd F7
+echo "Almaty" > F2.txt
+cd ..
+echo "Nurjanov Adil Hasenovich" > F1.txt
+cd ..
+mkdir F13
+mkdir -p F12/F14
+cd F12/F14
+echo "primerno 5" > F7.txt
+cd ~/projects/ikt/PRAKTIKA/
+mkdir -p F8/F9
+cd F8
+mkdir -p F10/F11
+cd F10/
+echo "80" > F5.txt
+cd F11/
+echo "coding" > F6.txt
+cd ~/projects/ikt/PRAKTIKA/
+mkdir -p F15/F16
+cd F15
+cd F16
+echo "IIN" > F8.txt
+cd ..
+mkdir -p F17/F18/20
+cd F17/F18/
+rmdir 20
+mkdir F19
+mkdir F20
+cd F20
+echo "-. .. -.-. .... . --. ---" > F9.txt
